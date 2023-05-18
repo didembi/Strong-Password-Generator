@@ -1,6 +1,7 @@
 def yeni_kullanici():   #yeni kullanıcı eklemek için fonksiyon
     try:
         with open("BIL104 -projeKullanıcılar.txt", "r+") as f:  # dosyayı hem okuma hem yazma modunda açma
+            # Fonksiyon kodu devam ediyor...
             satirlar = f.readlines()  #dosyanın mevcut satırlarını okuma
             son_satir = ""  #dosyadaki son satırı tutacak değişken atama
             while True:
